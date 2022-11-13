@@ -1,0 +1,155 @@
+.bg-black {
+  background-color: black;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.orenge {
+  background-color: #f3cc91;
+}
+
+.bg-orenge {
+  color: #f3cc91;
+}
+
+.border-orenge {
+  border: 3px solid #f3cc91;
+}
+
+.crimson {
+  font-family: 'Crimson Text', serif;
+}
+
+.game-font {
+  font-family: 'Crimson Text', serif;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.text-white {
+  color: white;
+}
+
+.font1p5 {
+  font-size: 1.5rem;
+}
+
+.smallHum {
+  max-width: 10%;
+  max-height: 10%;
+}
+
+.smallHum:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.smallHum:active {
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+}
+
+.hum {
+  max-width: 50%;
+}
+
+.hum:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.hum:active {
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+}
+
+.relative {
+  position: relative;
+}
+
+.fixed {
+  padding: 0px 10%;
+  position: fixed;
+  z-index: 100;
+}
+
+.attention {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 6s;
+  animation-duration: 6s;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.pairates {
+  -webkit-box-shadow: inset 0rem 0rem 20px 15px #f3cc91;
+  box-shadow: inset 0rem 0rem 20px 15px #f3cc91;
+}
+
+.botn {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px 40px;
+  margin: 0 10px;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-shadow: 4px 5px 3px 0 black;
+  box-shadow: 4px 5px 3px 0 black;
+}
+
+.botn:hover {
+  color: white;
+  background-color: black;
+  -webkit-box-shadow: 4px 5px 3px 0 white;
+  box-shadow: 4px 5px 3px 0 white;
+}
+
+.botnMain {
+  color: #f3cc91;
+  background-color: black;
+  border: 1px solid #f3cc91;
+  padding: 10px 40px;
+  margin: 0 10px;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.botnMain:hover {
+  color: black;
+  background-color: #f3cc91;
+  border: 1px solid #f3cc91;
+}
+
+.scroll {
+  width: 100%;
+  height: 350px;
+  overflow-y: auto;
+  border: 3px solid #f3cc91;
+}
+
+/*# sourceMappingURL=style.css.map */
